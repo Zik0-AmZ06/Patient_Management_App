@@ -1,0 +1,3 @@
+### GET request to get all patients
+GET http://lb-9a658a04.elb.localhost.localstack.cloud:4004/api/patients
+Authorization: Bearer {{token}}

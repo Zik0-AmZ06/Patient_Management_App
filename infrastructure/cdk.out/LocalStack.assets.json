@@ -1,0 +1,20 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "d4656928de45447c38791b26d92502b7998f3429c541fc475740a1ed3bc5e0ea": {
+      "displayName": "LocalStack Template",
+      "source": {
+        "path": "LocalStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region-594f115f": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "d4656928de45447c38791b26d92502b7998f3429c541fc475740a1ed3bc5e0ea.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
